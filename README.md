@@ -20,7 +20,7 @@ Ce script Python utilise la bibliothèque Pillow pour améliorer la qualité d'u
 3. **Exécutez le script :**
 
     ```bash
-    python 28112023-tkIMG/up_quality_imager.py
+    python up_quality_imager.py
     ```
 
 4. **Suivez les instructions à l'écran pour sélectionner une image et spécifier où enregistrer l'image améliorée.**
