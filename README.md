@@ -24,3 +24,11 @@ Ce script Python utilise la bibliothèque Pillow pour améliorer la qualité d'u
     ```
 
 4. **Suivez les instructions à l'écran pour sélectionner une image et spécifier où enregistrer l'image améliorée.**
+
+## Exemple
+
+ - Avant
+![b16359c0c064341109949ad706b46bf5](https://github.com/grandtimide/literate-guacamole/assets/76840244/03539d73-d9a2-4b14-8b13-1f0f39e75c76)
+
+- Après
+![zdzdzdzdz](https://github.com/grandtimide/literate-guacamole/assets/76840244/05cf1ec0-f620-4b2e-943d-94a36868dc9d)
