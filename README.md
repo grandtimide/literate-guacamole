@@ -1,33 +1,40 @@
-# Amélioration de Qualité d'Image
+# ImageManipulatorGUI
 
-Ce script Python utilise la bibliothèque Pillow pour améliorer la qualité d'une image sélectionnée par l'utilisateur. Il offre une interface simple permettant de choisir une image depuis l'explorateur de fichiers Windows, puis propose de sauvegarder l'image améliorée.
+ImageManipulatorGUI est un script Python qui vous permet d'effectuer des manipulations d'images de base à l'aide d'une interface utilisateur graphique (GUI). Le script utilise la bibliothèque Pillow pour le traitement d'images et Tkinter pour l'interface graphique.
 
-## Utilisation
+## Fonctionnalités
 
-1. **Clonez le dépôt sur votre machine locale :**
+- Retourner l'image horizontalement
+- Retourner l'image verticalement
+- Faire pivoter l'image de 90 degrés
+- Faire pivoter l'image selon un angle personnalisé
+
+## Démarrage
+
+### Prérequis
+
+- Python 3.x
+- Bibliothèque Pillow (`pip install Pillow`)
+
+### Installation
+
+1. Clonez le dépôt :
 
     ```bash
-    git clone https://github.com/grandtimide/literate-guacamole.git
-    cd literate-guacamole
+    git clone https://github.com/grandtimide/03122023-IMGmani-GUI.git
+    cd 03122023-IMGmani-GUI
     ```
 
-2. **Installez les dépendances nécessaires :**
+### Utilisation
+
+1. Exécutez le script :
 
     ```bash
-    pip install Pillow
+    python ImageManipulatorGUI.py
     ```
 
-3. **Exécutez le script :**
+2. Suivez les instructions à l'écran pour choisir une image et sélectionner la manipulation souhaitée.
 
-    ```bash
-    python up_quality_imager.py
-    ```
+3. L'image transformée sera affichée, et vous pourrez choisir de l'enregistrer.
 
-4. **Suivez les instructions à l'écran pour sélectionner une image et spécifier où enregistrer l'image améliorée.**
 
-## Exemple
-                                                       
-<p align="center">
-<img src="https://github.com/grandtimide/literate-guacamole/assets/76840244/03539d73-d9a2-4b14-8b13-1f0f39e75c76" title="Avant">
-<img src="https://github.com/grandtimide/literate-guacamole/assets/76840244/05cf1ec0-f620-4b2e-943d-94a36868dc9d" title="Après">
-</p>
