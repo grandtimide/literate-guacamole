@@ -7,8 +7,8 @@ Ce script Python utilise la bibliothèque Pillow pour améliorer la qualité d'u
 1. **Clonez le dépôt sur votre machine locale :**
 
     ```bash
-    git clone https://github.com/grandtimide/UpQualityImagerGUI.git
-    cd UpQualityImagerGUI
+    git clone https://github.com/grandtimide/literate-guacamole.git
+    cd literate-guacamole
     ```
 
 2. **Installez les dépendances nécessaires :**
