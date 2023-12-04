@@ -1,40 +1,26 @@
-# ImageManipulatorGUI
+# Amélioration de Qualité d'Image
 
-ImageManipulatorGUI est un script Python qui vous permet d'effectuer des manipulations d'images de base à l'aide d'une interface utilisateur graphique (GUI). Le script utilise la bibliothèque Pillow pour le traitement d'images et Tkinter pour l'interface graphique.
+Ce script Python utilise la bibliothèque Pillow pour améliorer la qualité d'une image sélectionnée par l'utilisateur. Il offre une interface simple permettant de choisir une image depuis l'explorateur de fichiers Windows, puis propose de sauvegarder l'image améliorée.
 
-## Fonctionnalités
+## Utilisation
 
-- Retourner l'image horizontalement
-- Retourner l'image verticalement
-- Faire pivoter l'image de 90 degrés
-- Faire pivoter l'image selon un angle personnalisé
-
-## Démarrage
-
-### Prérequis
-
-- Python 3.x
-- Bibliothèque Pillow (`pip install Pillow`)
-
-### Installation
-
-1. Clonez le dépôt :
+1. **Clonez le dépôt sur votre machine locale :**
 
     ```bash
-    git clone https://github.com/grandtimide/03122023-IMGmani-GUI.git
-    cd 03122023-IMGmani-GUI
+    git clone https://github.com/grandtimide/UpQualityImagerGUI.git
+    cd UpQualityImagerGUI
     ```
 
-### Utilisation
-
-1. Exécutez le script :
+2. **Installez les dépendances nécessaires :**
 
     ```bash
-    python ImageManipulatorGUI.py
+    pip install Pillow
     ```
 
-2. Suivez les instructions à l'écran pour choisir une image et sélectionner la manipulation souhaitée.
+3. **Exécutez le script :**
 
-3. L'image transformée sera affichée, et vous pourrez choisir de l'enregistrer.
+    ```bash
+    python amelioration_qualite_image.py
+    ```
 
-
+4. **Suivez les instructions à l'écran pour sélectionner une image et spécifier où enregistrer l'image améliorée.**
